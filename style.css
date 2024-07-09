@@ -1,0 +1,41 @@
+.page-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.grid{
+    width: 308px;   /* 20*14 = 280 (+28px for the borders) */
+    height: 308px;  /* 20*14 = 280 (+28px for the borders) */
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+    border: 1px black solid;
+}
+
+.snake{
+    background-color: blue;
+}
+
+.apple{
+    background-color: green;
+}
+
+.score{
+    text-transform: uppercase;
+}
+
+.btn-score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
